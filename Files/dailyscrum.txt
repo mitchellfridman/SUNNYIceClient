@@ -1,1 +1,11 @@
+Friday Sept. 16, 2022
 
+Kristy
+1. What I have done / not done since last Scrum?
+First scrum.
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+Set up the server side, including but not limited to downloading the dependencies we will need.
+
+3. Where do I need assistance? What do I need to figure out?
+Making sure I know all of the dependencies that we will need 
