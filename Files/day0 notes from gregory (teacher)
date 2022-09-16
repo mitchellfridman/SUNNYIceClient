@@ -1,0 +1,25 @@
+Vague Notes about when we asked Gregory questions day0
+
+
+-many to many table,
+	seperate tables,
+
+
+-varchar as an array of flavors for fav under account
+
+	WHERE column_name IN (value1, value2)
+
+
+
+
+-fav tally, use a trigger to increment
+	or ... program in backend
+
+-for cones, many to many seperate tables, cones belong to the order
+
+-use a loop to choose how many cones with whats already in your cart
+
+-we need URL + admin
+
+-admin manages flavors and manages orders
+_____________________________________________________________
