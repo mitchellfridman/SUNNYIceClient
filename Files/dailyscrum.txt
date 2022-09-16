@@ -9,3 +9,8 @@ Set up the server side, including but not limited to downloading the dependencie
 
 3. Where do I need assistance? What do I need to figure out?
 Making sure I know all of the dependencies that we will need 
+
+Mitchell
+1. First Scrum
+2. Once Kristy has set up the server side, I will initialize the databases.
+3. I will need to review sequelize.
