@@ -51,3 +51,17 @@ Kristy
 video 3 Pedro tutorial, implement the steps from the video. Review class video from Friday.
 
 3. I may need some help with some of the steps in video 3, although I am not sure which steps yet.
+
+18/09/2022 Matthew Rao
+
+1. What I have done / not done since last Scrum?
+	-We created the client
+	-Added dependencies
+	-CSS tested and added!
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-Create pages folder
+	-Create some ideas for pages
+
+3. Where do I need assistance? What do I need to figure out?
+	-I'll ask the team for feedback
