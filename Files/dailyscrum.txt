@@ -27,3 +27,16 @@ Mitchell Friday the 16th
 3. Where do I need assistance? What do I need to figure out?
 	-Looking into web design methods within React
 
+18/09/2022 Matthew Rao
+
+1. What I have done / not done since last Scrum?
+	-We created the client
+	-Added dependencies
+	-CSS tested and added!
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-Create pages folder
+	-Create some ideas for pages
+
+3. Where do I need assistance? What do I need to figure out?
+	-I'll ask the team for feedback
