@@ -1,3 +1,7 @@
+1. What I have done / not done since last Scrum?
+2. What I plan to do from this scrum to next? (next 24 hours)
+3. Where do I need assistance? What do I need to figure out?
+
 Friday Sept. 16, 2022
 
 Kristy
@@ -26,3 +30,15 @@ Mitchell Friday the 16th
 	-Check into CSS Bootstrap within React
 3. Where do I need assistance? What do I need to figure out?
 	-Looking into web design methods within React
+
+==============================================================
+Mitchell, Sept 18th
+
+1. I was waiting on things I didn't notice were delivered, 
+so I still have to set up the database.
+
+2. 	- Set up the database.
+	- Start populating the trello board.
+
+3. Review on setting up the database, review class video for best 
+practices on trello.
