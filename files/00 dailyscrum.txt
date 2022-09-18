@@ -42,3 +42,12 @@ so I still have to set up the database.
 
 3. Review on setting up the database, review class video for best 
 practices on trello.
+
+Kristy
+
+1. I set up the server side, including downloading the dependencies we need thus far.
+
+2. Review trello board, cleanup, assign my name to things I am supposed to do on the board. Review 
+video 3 Pedro tutorial, implement the steps from the video. Review class video from Friday.
+
+3. I may need some help with some of the steps in video 3, although I am not sure which steps yet.
