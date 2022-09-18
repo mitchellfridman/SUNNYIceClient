@@ -1,0 +1,29 @@
+Friday Sept. 16, 2022
+
+Kristy
+1. What I have done / not done since last Scrum?
+First scrum.
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+Set up the server side, including but not limited to downloading the dependencies we will need.
+
+3. Where do I need assistance? What do I need to figure out?
+Making sure I know all of the dependencies that we will need 
+
+Mitchell Friday the 16th
+1. First Scrum
+2. Once Kristy has set up the server side, I will initialize the databases.
+3. I will need to review sequelize.
+
+16/09/2022 Matthew Rao
+
+1. What I have done / not done since last Scrum?
+	-This is the first scrum
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-Create Client Side
+	-Add dependencies
+	-Check into CSS Bootstrap within React
+3. Where do I need assistance? What do I need to figure out?
+	-Looking into web design methods within React
+
