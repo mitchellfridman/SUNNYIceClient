@@ -1,19 +1,14 @@
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import "./App.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from '/components/navbar'
+import Navbar from './components/NavBar/navbar'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-        <Button as="a" variant="primary">
-          Button as link
-        </Button>
+    <Router>
         <Navbar/>
-        <Button as="a" variant="success">
-          Button as link
-        </Button>
-    </div>
+    </Router>
   );
 }
 
