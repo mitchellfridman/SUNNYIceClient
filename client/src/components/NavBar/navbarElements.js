@@ -38,9 +38,9 @@ export const NavLogo = styled(LinkR)`
   margin-left: 24px;
   font-weight: bold;
   text-decoration: none;
-  &:hover{
+  &:hover {
     transition: all 0.2s ease-in-out;
-    color: #00BFFF;
+    color: #00bfff;
   }
 `;
 
@@ -88,20 +88,20 @@ export const NavLinks = styled(LinkS)`
   &.active {
     border-bottom: 3px solid #00bfff;
   }
-  &:hover{
+  &:hover {
     transition: all 0.2s ease-in-out;
-    color: #FF69B4;
+    color: #ff69b4;
   }
 `;
 
 export const NavBtn = styled.nav`
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 
-@media screen and (max-width: 768px){
-  display: none;
-}
-`
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+`;
 
 export const NavBtnLink = styled(LinkR)`
 border-radius: 50px;
@@ -120,4 +120,4 @@ text-decoration: none;
   transition: all 0.2s ease-in-out;
   background: #fff;
   color: #FF1493;
-`
+`;
