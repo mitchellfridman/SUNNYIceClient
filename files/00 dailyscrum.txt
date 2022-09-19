@@ -65,3 +65,18 @@ video 3 Pedro tutorial, implement the steps from the video. Review class video f
 
 3. Where do I need assistance? What do I need to figure out?
 	-I'll ask the team for feedback
+
+===================================
+
+September 19th, 2022
+
+Mitchell 
+
+1. I was otherwise occupied yesterday so same to-do list, 
+so I still have to set up the database.
+
+2. 	- Set up the database.
+	- Start populating the trello board.
+
+3. Review on setting up the database, review class video for best 
+practices on trello.
