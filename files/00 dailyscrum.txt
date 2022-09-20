@@ -88,3 +88,31 @@ Kristy
 2. Starting with Trello board, resuming working on video 3 and coding for the steps in there.
 
 3. Nothing I can see at the moment, but I will ask my team for feedback should I need it.
+
+19/09/2022 Matthew Rao
+
+1. What I have done / not done since last Scrum?
+	not too much
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-Create a navbar
+	-Figure out how to do css properly in js
+
+3. Where do I need assistance? What do I need to figure out?
+	-I'll ask the team for feedback
+
+===================================
+
+20/09/2022 Matthew Rao
+
+1. What I have done / not done since last Scrum?
+	-Created navbar
+	-styled navbar
+	-added interesting small animation using js function to navbar
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-create index
+	-create build your cone webpage or at least design most of it
+
+3. Where do I need assistance? What do I need to figure out?
+	-build cone page will require some extra research
