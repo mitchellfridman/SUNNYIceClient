@@ -4,7 +4,7 @@ import { Link as LinkS } from "react-scroll";
 
 export const Nav = styled.nav`
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background: #000;
+  background: #0d0d0d;
   height: 80px;
   // margin-top: -80px;
   display: flex;
@@ -43,6 +43,13 @@ export const NavLogo = styled(LinkR)`
     color: #00bfff;
   }
 `;
+
+// export const Img = styled.div`
+// content: url('../../images/icecreampink-resized.png');
+// height: 60px;
+// width: 60px;
+// z-index: 999;
+// `
 
 export const MobileIcon = styled.div`
   display: none;

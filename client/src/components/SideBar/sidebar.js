@@ -19,7 +19,7 @@ function Sidebar({ isOpen, toggle }) {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink to="Build" onClick={toggle}>
-            Build your Cone!
+            Build a Cone!
           </SidebarLink>
           <SidebarLink to="Flavor" onClick={toggle}>
             Flavors
