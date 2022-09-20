@@ -117,7 +117,7 @@ Kristy
 3. Where do I need assistance? What do I need to figure out?
 	-build cone page will require some extra research
 
-	Kristy
+Kristy
 
 	1. I revisited the tutorials and made a list of what needs to get done on this
 	project specifically
@@ -125,3 +125,18 @@ Kristy
 	2. I plan to go through the list and check off every item, start routes
 
 	3. I need to figure out routes by rewatching the tutorial 
+
+Mitchell
+
+	1. What I have done / not done since last Scrum?
+		Made all the models for the database. Didn't know how to make foreign keys
+		via sequelize. Will do that today.
+
+	2. What I plan to do from this scrum to next? (next 24 hours)
+		1. Watch class videos from Friday, and Monday.
+		2. Figure out how to do foreign keys via sequelize.
+		3. Review tutorials and begin with the login & registration.
+
+	3. Where do I need assistance? What do I need to figure out?
+		1. foreign keys.
+		2. Login & registration.
