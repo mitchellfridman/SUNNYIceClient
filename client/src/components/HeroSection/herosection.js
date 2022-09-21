@@ -19,8 +19,8 @@ function HeroSection() {
       <HeroContent>
         <HeroH1>Build-A-Cone Now!</HeroH1>
         <HeroP>
-          Sign up right now and pick up to 3 scoops of your favourite flavors to
-          pick up some delicious Sunny Ice Cream today!
+          Sign up now and choose up to 3 scoops of your favourite flavors to
+          enjoy some delicious Sunny Ice Cream today!
         </HeroP>
         <HeroBtnWrap>
           <HeroRoute to="/signup">
