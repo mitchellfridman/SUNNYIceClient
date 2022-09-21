@@ -165,3 +165,17 @@ NOT DONE:
 	- I may need help with troubleshooting why apps will not run on my computer with databases 
 	(Note to group: I had this as a question for Gregory yesterday, but unfortunately the class ran out of time so he said he will
 	answer me about it today. I will follow up as soon as I get home from dr. apt)
+
+	Mitchell:
+
+1. What I have done / not done since last Scrum?
+	- I watched the class videos from Friday and Monday, and looked at resources
+		on foreign keys. I think I know how to do that and will implement it now.
+	- Located resources on login & authentication.
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	- Implement foreign keys.
+	- Begin login & registration.
+
+3. Where do I need assistance? What do I need to figure out?
+	- Make sure we are doing foreign keys correctly.
