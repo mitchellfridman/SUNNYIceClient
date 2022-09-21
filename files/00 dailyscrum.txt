@@ -159,12 +159,22 @@ NOT DONE:
 	- Create database on my computer so I can run app
 	- Modify routes (see 'NOT DONE' above)
 	- Troubleshoot why I am getting an error message when I try to run the app with database sections commented out
+	- Re-watch video from class 9 to understand what Gregory wants on Trello board, follow the example he did for us on rest of board
+	(key to remember: user stories)
+	- Create separate project so I can add code without affecting the project and get it approved before adding it if I am working
+	outside of class hours and can't get quick answers to questions
+	- Finish setting up server side of project (I need to specify what that means in practical steps)
 
 3. Where do I need assistance? What do I need to figure out?
 	- Group answer to question re: flavours page
 	- I may need help with troubleshooting why apps will not run on my computer with databases 
 	(Note to group: I had this as a question for Gregory yesterday, but unfortunately the class ran out of time so he said he will
 	answer me about it today. I will follow up as soon as I get home from dr. apt)
+	- I need help creating a "check list" for the server side of the project to make sure I do everything
+	- I need to make sure the tables will populate on mysql when we add information to them 
+
+	Update: We had a meeting when I got back from an appointment this afternoon. The group updated me on how the mid-way point
+	meeting with Gregory went. We discussed changes that need to be made to the Trello board (I've added this to 2. and 3. above)
 
 	Mitchell:
 
