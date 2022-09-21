@@ -1,3 +1,11 @@
-export const Flavours = () => {
-  return <h1>THIS IS THE REGISTER PAGE</h1>;
-};
+import React from 'react'
+
+function Register() {
+  return (
+    <div>
+      register
+    </div>
+  )
+}
+
+export default Register

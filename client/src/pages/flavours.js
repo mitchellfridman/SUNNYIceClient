@@ -1,3 +1,11 @@
-export const Flavours = () => {
-  return <h1>THIS IS THE FLAVOURS PAGE</h1>;
-};
+import React from 'react'
+
+function Flavours() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Flavours
