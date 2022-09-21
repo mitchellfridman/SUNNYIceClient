@@ -179,3 +179,17 @@ NOT DONE:
 
 3. Where do I need assistance? What do I need to figure out?
 	- Make sure we are doing foreign keys correctly.
+
+	Matthew Rao
+
+1. What I have done / not done since last Scrum?
+	-added media folders
+	-finished hero section
+	-found more info on animating a build page
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-designing and doing most if not all of build a cone page
+	-create checkout page with qr code
+
+3. Where do I need assistance? What do I need to figure out?
+	-making the build a cone data work with the server, so far I think I can store to local storage
