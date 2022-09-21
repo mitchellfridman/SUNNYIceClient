@@ -1,3 +1,11 @@
-export const Flavours = () => {
-  return <h1>THIS IS THE LOGIN PAGE</h1>;
-};
+import React from 'react'
+
+function Login() {
+  return (
+    <div>
+      login
+    </div>
+  )
+}
+
+export default Login
