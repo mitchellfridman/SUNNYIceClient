@@ -140,3 +140,28 @@ Mitchell
 	3. Where do I need assistance? What do I need to figure out?
 		1. foreign keys.
 		2. Login & registration.
+
+		===================================
+
+21/09/2022 Kristy
+
+1. What I have done / not done since last Scrum?
+
+DONE:
+	-Coded for routes
+	-Created routes components (pages)
+	
+NOT DONE:
+- I need to align routes components with names Matthew gave them in navbar.js
+- I need answer from group re: one page, two sections or two pages for flavours
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	- Create database on my computer so I can run app
+	- Modify routes (see 'NOT DONE' above)
+	- Troubleshoot why I am getting an error message when I try to run the app with database sections commented out
+
+3. Where do I need assistance? What do I need to figure out?
+	- Group answer to question re: flavours page
+	- I may need help with troubleshooting why apps will not run on my computer with databases 
+	(Note to group: I had this as a question for Gregory yesterday, but unfortunately the class ran out of time so he said he will
+	answer me about it today. I will follow up as soon as I get home from dr. apt)
