@@ -78,7 +78,7 @@ export const HeroBtnWrap = styled.div`
   align-items: center;
 `;
 
-export const HeroRoute = styled(LinkR)`
+export const HeroLink = styled(LinkR)`
   border-radius: 50px;
   background: #00bfff;
   white-space: nowrap;
