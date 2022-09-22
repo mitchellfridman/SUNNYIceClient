@@ -203,3 +203,18 @@ NOT DONE:
 
 3. Where do I need assistance? What do I need to figure out?
 	-making the build a cone data work with the server, so far I think I can store to local storage
+
+	===================================
+
+22/09/2022 Kristy
+
+1. What I have done / not done since last Scrum?
+	-Watched the class lecture to understand what Gregory wants from Trello, made a plan for getting our board there
+	-Started a checklist for the server side of things to make sure I get everything done and won't miss anything
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-Finish updating Trello based on the information I have now
+	-Working through the checklist for server side 
+
+3. Where do I need assistance? What do I need to figure out?
+	-Confirmation on my checklist for server side from my group
