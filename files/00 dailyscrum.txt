@@ -218,3 +218,17 @@ NOT DONE:
 
 3. Where do I need assistance? What do I need to figure out?
 	-Confirmation on my checklist for server side from my group
+
+Mitchell
+
+1. What I have done / not done since last Scrum?
+	I watched all the videos I needed to yesterday, now I will do the actual coding
+	of the foreign keys in the database and then the login and registration sections
+	of the website.
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	- Add foreign keys	
+	- Write the login and registration sections.
+
+3. Where do I need assistance? What do I need to figure out?
+	- Will seek help if I run into roadblocks.
