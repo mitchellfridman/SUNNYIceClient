@@ -232,3 +232,13 @@ Mitchell
 
 3. Where do I need assistance? What do I need to figure out?
 	- Will seek help if I run into roadblocks.
+
+	Matthew
+
+1. What I have done / not done since last Scrum?
+	-troubleshoot and still working on build page
+2. What I plan to do from this scrum to next? (next 24 hours)
+	- finish build a cone page and include its own routes in server
+
+3. Where do I need assistance? What do I need to figure out?
+	- It's not an easy concept

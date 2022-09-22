@@ -10,6 +10,8 @@ import {
   HeroBtnWrap,
   HeroRoute
 } from "./HeroElements.js";
+// import Build from "../../pages/build";
+
 function HeroSection() {
   return (
     <HeroContainer id="home">
@@ -23,8 +25,8 @@ function HeroSection() {
           enjoy some delicious Sunny Ice Cream today!
         </HeroP>
         <HeroBtnWrap>
-          <HeroRoute to="/signup">
-            Sign Up
+          <HeroRoute to={'/build'}>
+            Build Yours
           </HeroRoute>
         </HeroBtnWrap>
       </HeroContent>

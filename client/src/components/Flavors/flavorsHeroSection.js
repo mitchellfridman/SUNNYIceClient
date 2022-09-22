@@ -29,7 +29,7 @@ function FlavorsHeroSection() {
                 <Subtitle>Subtitle</Subtitle>
                 <BtnWrap>
                     <Button></Button>
-                  <FlavorRoute to="/flavors">Check Our Flavors!</FlavorRoute>
+                  <FlavorRoute path="/flavors">Check Our Flavors!</FlavorRoute>
                 </BtnWrap>
               </TextWrapper>
             </Column1>

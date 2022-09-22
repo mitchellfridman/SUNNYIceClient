@@ -1,12 +1,9 @@
 import React from "react";
-import Header from "../components/Header/header";
 
 function Build() {
-  return (
-    <>
-      <Header/>
-    </>
-  )
+  return <>
+  build
+  </>;
 }
 
-export default Build
+export default Build;
