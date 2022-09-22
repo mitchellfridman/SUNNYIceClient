@@ -7,6 +7,7 @@ import Build from "./pages/build";
 import Register from "./pages/register";
 import Login from "./pages/login";
 import Flavours from "./pages/flavours";
+import NotFound from "./pages/pageNotFound";
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
         <Route path="/register" element={<Register/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/flavor" element={<Flavours/>}/>
+        <Route path="*" element={<NotFound/>}/>
         </Routes>
       </div>
   );
