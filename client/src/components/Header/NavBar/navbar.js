@@ -29,10 +29,10 @@ function Navbar({ toggle }) {
               <NavLinks to="/build">Build a Cone!</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="flavor">Flavors</NavLinks>
+              <NavLinks to="/flavor">Flavors</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Sign Up</NavLinks>
+              <NavLinks to="/register">Sign Up</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>

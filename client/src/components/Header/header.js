@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Navbar from "../NavBar/navbar";
-import Sidebar from "../SideBar/sidebar";
+import Navbar from "./NavBar/navbar";
+import Sidebar from "./SideBar/sidebar";
 function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
