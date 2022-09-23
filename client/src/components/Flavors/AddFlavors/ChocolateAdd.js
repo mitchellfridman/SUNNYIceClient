@@ -12,7 +12,7 @@ function ChocolateAdd() {
         <Card.Body>
           <Card.Title>Chocolate {flavid}</Card.Title>
           <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
-          <Button variant="primary" onClick="#">Add Scoop</Button>
+          <Button variant="primary">Add Scoop</Button>
         </Card.Body>
       </Card>
     </div>

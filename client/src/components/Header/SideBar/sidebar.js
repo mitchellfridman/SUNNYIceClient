@@ -18,13 +18,13 @@ function Sidebar({ isOpen, toggle }) {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="Build" onClick={toggle}>
+          <SidebarLink to="/build" onClick={toggle}>
             Build a Cone!
           </SidebarLink>
-          <SidebarLink to="Flavor" onClick={toggle}>
+          <SidebarLink to="/flavor" onClick={toggle}>
             Flavors
           </SidebarLink>
-          <SidebarLink to="signup" onClick={toggle}>
+          <SidebarLink to="/register" onClick={toggle}>
             Sign Up
           </SidebarLink>
         </SidebarMenu>
