@@ -242,3 +242,17 @@ Mitchell
 
 3. Where do I need assistance? What do I need to figure out?
 	- It's not an easy concept
+
+=======================================
+Friday, Sept 23
+Mitchell
+
+1. What I have done / not done since last Scrum?
+	I assigned all of the foreign keys, including the 3 scoop# from cones to the
+	same flavourId.
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	Looking into routes.
+
+3. Where do I need assistance? What do I need to figure out?
+	Review tutorials on routes.
