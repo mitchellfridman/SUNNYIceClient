@@ -64,10 +64,10 @@ function Build() {
         <Col xs><Button variant="primary" size="lg">
           Add Another Cone
         </Button></Col>
-        <Col xs><Button variant="success" size="lg">
+        <Col xs={{ order: 12 }}><Button variant="success" size="lg">
           Submit Order
         </Button></Col>
-        <Col xs><Button variant="secondary" size="lg">
+        <Col xs={{ order: 1 }}><Button variant="secondary" size="lg">
           Clear Cone
         </Button></Col>
       </Row>
