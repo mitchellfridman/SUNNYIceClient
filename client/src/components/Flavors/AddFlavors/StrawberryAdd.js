@@ -12,7 +12,14 @@ function StrawberryAdd() {
         <Card.Body>
           <Card.Title>Strawberry {flavid}</Card.Title>
           <Card.Text>Enjoy our berry delicious Strawberry flavour</Card.Text>
-          <Button variant="primary">Add Scoop</Button>
+          <ToggleButton
+            className="mb-2"
+            id="toggle-check"
+            type="checkbox"
+            variant="primary"
+            onChange={() => updateFlavors("cho")}>
+            Add Scoop
+          </ToggleButton>
         </Card.Body>
       </Card>
     </div>

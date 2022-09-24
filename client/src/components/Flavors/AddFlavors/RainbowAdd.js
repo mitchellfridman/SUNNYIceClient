@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import { useParams } from "react-router-dom";
 
 function RainbowAdd() {
-  const {flavid} = useParams();
+  const { flavid } = useParams();
   return (
     <div>
       <Card style={{ width: "18rem" }}>
@@ -12,7 +12,14 @@ function RainbowAdd() {
         <Card.Body>
           <Card.Title>Rainbow {flavid}</Card.Title>
           <Card.Text>Enjoy our bubblegum flavoured ice cream featuring all the colours of the rainbow</Card.Text>
-          <Button variant="primary">Add Scoop</Button>
+          <ToggleButton
+            className="mb-2"
+            id="toggle-check"
+            type="checkbox"
+            variant="primary"
+            onChange={() => updateFlavors("cho")}>
+            Add Scoop
+          </ToggleButton>
         </Card.Body>
       </Card>
     </div>

@@ -12,7 +12,14 @@ function TigerTailAdd() {
         <Card.Body>
           <Card.Title>Tiger Tail {flavid}</Card.Title>
           <Card.Text>Enjoy our orange flavoured ice cream with ripples of black licorice right through it</Card.Text>
-          <Button variant="primary">Add Scoop</Button>
+          <ToggleButton
+            className="mb-2"
+            id="toggle-check"
+            type="checkbox"
+            variant="primary"
+            onChange={() => updateFlavors("cho")}>
+            Add Scoop
+          </ToggleButton>
         </Card.Body>
       </Card>
     </div>

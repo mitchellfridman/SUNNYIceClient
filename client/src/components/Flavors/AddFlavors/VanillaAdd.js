@@ -12,7 +12,14 @@ function VanillaAdd() {
         <Card.Body>
           <Card.Title>Vanilla {flavid}</Card.Title>
           <Card.Text>Enjoy our silky smooth Vanilla flavour</Card.Text>
-          <Button variant="primary">Add Scoop</Button>
+          <ToggleButton
+            className="mb-2"
+            id="toggle-check"
+            type="checkbox"
+            variant="primary"
+            onChange={() => updateFlavors("cho")}>
+            Add Scoop
+          </ToggleButton>
         </Card.Body>
       </Card>
     </div>

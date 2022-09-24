@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 import { useParams } from "react-router-dom";
 
 function PupconeAdd() {
-  const {flavid} = useParams();
+  const { flavid } = useParams();
   return (
     <div>
       <Card style={{ width: "18rem" }}>
@@ -12,7 +12,14 @@ function PupconeAdd() {
         <Card.Body>
           <Card.Title>Pupcone {flavid}</Card.Title>
           <Card.Text>Our small vanilla pupcones are dog-safe treats for your best four-legged friends</Card.Text>
-          <Button variant="primary">Add Scoop</Button>
+          <ToggleButton
+            className="mb-2"
+            id="toggle-check"
+            type="checkbox"
+            variant="primary"
+            onChange={() => updateFlavors("cho")}>
+            Add Scoop
+          </ToggleButton>
         </Card.Body>
       </Card>
     </div>
