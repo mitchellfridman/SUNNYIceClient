@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "react-bootstrap/esm/Container";
 import Header from "../components/Header/header";
-import Accounts from "../components/Tables/ListOfAccounts";
+import Accounts from "../components/Tables/accountTable/accounts";
 import Flavors from "../components/Tables/listOfFlavors";
 import Orders from "../components/Tables/listOfOrders";
 
