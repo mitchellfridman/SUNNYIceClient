@@ -3,15 +3,15 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { useParams } from "react-router-dom";
 
-function ChocolateAdd() {
+function VanillaAdd() {
   const {flavid} = useParams();
   return (
     <div>
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
-          <Card.Title>Chocolate {flavid}</Card.Title>
-          <Card.Text>Enjoy our classic Chocolate flavour</Card.Text>
+          <Card.Title>Vanilla {flavid}</Card.Title>
+          <Card.Text>Enjoy our silky smooth Vanilla flavour</Card.Text>
           <Button variant="primary">Add Scoop</Button>
         </Card.Body>
       </Card>
@@ -19,4 +19,4 @@ function ChocolateAdd() {
   );
 }
 
-export default ChocolateAdd;
+export default VanillaAdd;
