@@ -10,6 +10,7 @@ const Orders = () => {
         <thead>
           <tr>
             <th>Order Id</th>
+            <th>Account Id</th>
             <th>Price</th>
             <th>Status</th>
             <th>Cone Id</th>
@@ -22,6 +23,7 @@ const Orders = () => {
         <tbody>
           <tr>
             <td>101</td>
+            <td>753</td>
             <td>12.13$</td>
             <td>Incomplete</td>
             <td>4234</td>
@@ -35,6 +37,7 @@ const Orders = () => {
           </tr>
           <tr>
             <td>102</td>
+            <td>331</td>
             <td>26.47$</td>
             <td>Complete</td>
             <td>4234</td>
@@ -46,6 +49,7 @@ const Orders = () => {
           </tr>
           <tr>
             <td>102</td>
+            <td>331</td>
             <td>26.47$</td>
             <td>Complete</td>
             <td>4234</td>
