@@ -11,9 +11,9 @@ import ToggleButton from "react-bootstrap/ToggleButton";
 import Card from "react-bootstrap/Card";
 
 function Build({ flavors, setFlavors }) {
-  const updateFlavors = (fname) => {
+  const updateFlavors = (event, fname) => {
     let newFlavors = JSON.parse(JSON.stringify(flavors));
-    newFlavors[fname] = !newFlavors[fname];
+    newFlavors[fname] = event;
     setFlavors(newFlavors);
   };
 
