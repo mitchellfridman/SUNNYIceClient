@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Header from "../components/Header/header";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -8,7 +8,16 @@ import ChocolateAdd from "../components/Flavors/AddFlavors/ChocolateAdd.js";
 import ListGroup from "react-bootstrap/ListGroup";
 import ChocolateRemove from "../components/Flavors/RemoveFlavors/ChocolateRemove";
 import Button from 'react-bootstrap/Button';
+
+
 function Build() {
+  // const [cones, setCones] = useState({
+  //   scoops: "",
+  //   scoop1: "",
+  //   scoop2: "",
+  //   scoop3: "",
+  // })
+
   return (
     <>
       <Header />
