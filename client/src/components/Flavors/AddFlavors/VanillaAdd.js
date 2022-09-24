@@ -1,16 +1,17 @@
 import React from "react";
-import ToggleButton from "react-bootstrap/ToggleButton";
+import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import { useParams } from "react-router-dom";
 
-
-function ChocolateAdd({ updateFlavors }) {
+function VanillaAdd() {
+  const {flavid} = useParams();
   return (
     <div>
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />
         <Card.Body>
-          <Card.Title>Chocolate</Card.Title>
-          <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
+          <Card.Title>Vanilla {flavid}</Card.Title>
+          <Card.Text>Enjoy our silky smooth Vanilla flavour</Card.Text>
           <ToggleButton
             className="mb-2"
             id="toggle-check"
@@ -25,4 +26,4 @@ function ChocolateAdd({ updateFlavors }) {
   );
 }
 
-export default ChocolateAdd;
+export default VanillaAdd;
