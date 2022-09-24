@@ -3,6 +3,12 @@ import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 
 const Accounts = () => {
+  const accounts = {
+    id: "102",
+    email: "admin@admin.com",
+    password: "admin",
+    lastDate: "6:20pm 12/07/2022"
+  }
   return (
     <>
       <h1>List of Accounts</h1>
@@ -18,11 +24,12 @@ const Accounts = () => {
         </thead>
         <tbody>
           <tr>
-            <td>1</td>
-            <td>Chocolate</td>
-            <td>Very Long Description</td>
-            <td>yes</td>
+            <td>{accounts.id}</td>
+            <td>{accounts.email}</td>
+            <td>{accounts.password}</td>
+            <td>{accounts.lastDate}</td>
             <td>
+            <Button variant="secondary">View</Button>
               <Button variant="warning">Edit</Button>
               <Button variant="danger">Delete</Button>
             </td>
