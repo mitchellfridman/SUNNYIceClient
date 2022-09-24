@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Navbar from "./NavBar/navbar";
 import Sidebar from "./SideBar/sidebar";
+
 function Header() {
-    const [isOpen, setIsOpen] = useState(false);
+
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -12,7 +14,7 @@ function Header() {
       <Sidebar isOpen={isOpen} toggle={toggle} />
       <Navbar toggle={toggle} />
     </>
-  )
+  );
 }
 
-export default Header
+export default Header;

@@ -8,6 +8,7 @@ import Register from "./pages/register";
 import Login from "./pages/login";
 import Flavours from "./pages/flavours";
 import NotFound from "./pages/pageNotFound";
+import Admin from "./pages/admin";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
         <Route path="/login" element={<Login/>}/>
         <Route path="/flavor" element={<Flavours/>}/>
         <Route path="*" element={<NotFound/>}/>
+        <Route path="/admin" element={<Admin/>}/>
         </Routes>
       </div>
   );

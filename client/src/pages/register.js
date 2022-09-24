@@ -34,7 +34,7 @@ function Register() {
           <label>email: </label>
           <ErrorMessage name="email" component="span" />
           <Field
-            autocomplete="off"
+            autocomplete="false"
             id="inputCreatePost"
             name="email"
             placeholder="(Ex. John123...)"
@@ -43,7 +43,7 @@ function Register() {
           <label>Password: </label>
           <ErrorMessage name="password" component="span" />
           <Field
-            autocomplete="off"
+            autocomplete="false"
             type="password"
             id="inputCreatePost"
             name="password"
