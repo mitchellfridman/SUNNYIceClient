@@ -22,7 +22,7 @@ function TableBody() {
             <tr>
               <td>{accounts.accountId}</td>
               <td>{accounts.email}</td>
-              <td>{accounts.password}</td>
+              {/* <td>{accounts.password}</td> */}
               <td>
                 <Button variant="secondary">View</Button>
                 <Button variant="warning">Edit</Button>

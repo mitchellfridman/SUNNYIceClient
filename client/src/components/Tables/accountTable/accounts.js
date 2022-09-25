@@ -13,7 +13,7 @@ const Accounts = () => {
           <tr>
             <th>Account Id</th>
             <th>Email</th>
-            <th>Password</th>
+            {/* <th>Password</th> */}
             <th>Edit</th>
           </tr>
         </thead>
