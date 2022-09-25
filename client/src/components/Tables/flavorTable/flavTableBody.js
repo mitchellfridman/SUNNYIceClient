@@ -18,7 +18,7 @@ function TableBody() {
         if (!flavors.flavourActive) {
           return (
             <tr>
-              <td key={flavors.flavorsId}>{flavors.flavourId}</td>
+              <td key={flavors.flavourId}>{flavors.flavourId}</td>
               <td key={flavors.flavorsId}>{flavors.flavourName}</td>
               <td key={flavors.flavorsId}>{flavors.flavourDescription}</td>
               <td>No</td>
@@ -31,7 +31,7 @@ function TableBody() {
         } else {
           return (
             <tr >
-              <td key={flavors.flavorsId}>{flavors.flavourId}</td>
+              <td key={flavors.flavourId}>{flavors.flavourId}</td>
               <td key={flavors.flavorsId}>{flavors.flavourName}</td>
               <td key={flavors.flavorsId}>{flavors.flavourDescription}</td>
               <td>Yes</td>
