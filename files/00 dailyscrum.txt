@@ -292,4 +292,15 @@ Matthew
 3. Where do I need assistance? What do I need to figure out?
 	-Server side code 
 	
-	
+Mitchell
+
+1. What I have done / not done since last Scrum?
+	- Fixed all the foreign keys and added another association as necessary.
+	- Added in all the flavours to the "add flavors" pages.
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	- will look into the admin/orders section.
+	- look into the rest of admin.
+
+3. Where do I need assistance? What do I need to figure out?
+	- will need to review CRUD processes and examples of it.
