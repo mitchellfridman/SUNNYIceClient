@@ -17,7 +17,7 @@ function Register() {
 
   const onSubmit = (data) => {
     axios.post("http://localhost:3001/auth/register", data).then(() => {
-      console.log(data);
+      // console.log(data); for testing
     });
   };
 
@@ -34,8 +34,7 @@ function Register() {
           <label>email: </label>
           <ErrorMessage name="email" component="span" />
           <Field
-            autocomplete="false"
-            id="inputCreatePost"
+           
             name="email"
             placeholder="(Ex. John123...)"
           />
@@ -43,9 +42,8 @@ function Register() {
           <label>Password: </label>
           <ErrorMessage name="password" component="span" />
           <Field
-            autocomplete="false"
+
             type="password"
-            id="inputCreatePost"
             name="password"
             placeholder="Your Password..."
           />
