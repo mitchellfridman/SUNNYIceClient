@@ -304,3 +304,18 @@ Mitchell
 
 3. Where do I need assistance? What do I need to figure out?
 	- will need to review CRUD processes and examples of it.
+
+Matthew
+
+1. What I have done / not done since last Scrum?
+	-added admin
+	-completed flavors table and account tables
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-hopefully build a whole cone and add it to orders
+	-fix up adding in new flavors
+
+3. Where do I need assistance? What do I need to figure out?
+	-routes are still unfinished
+	-build site is very rough
+	-order tables-login registration CSS
