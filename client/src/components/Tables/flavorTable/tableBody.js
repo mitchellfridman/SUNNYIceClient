@@ -17,7 +17,7 @@ function TableBody() {
       {listOfFlavors.map((flavors, key) => {
         if (!flavors.flavourActive) {
           return (
-            <tr>
+            <tr key = {listOfFlavors}>
               <td>{flavors.flavourId}</td>
               <td>{flavors.flavourName}</td>
               <td>{flavors.flavourDescription}</td>
@@ -30,7 +30,7 @@ function TableBody() {
           );
         } else {
           return (
-            <tr>
+            <tr key = {listOfFlavors}>
               <td>{flavors.flavourId}</td>
               <td>{flavors.flavourName}</td>
               <td>{flavors.flavourDescription}</td>
