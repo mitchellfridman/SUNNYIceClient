@@ -268,3 +268,39 @@ Matthew
 
 3. Where do I need assistance? What do I need to figure out?
 	-routes will not be easy
+
+	22/09/2022 Kristy
+
+1. What I have done / not done since last Scrum?
+	-Started organizing Trello into user stories
+	-Going down the checklist from server side
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-Finish tasks listed above
+
+3. Where do I need assistance? What do I need to figure out?
+	-Nothing atm
+
+	22/09/2022 Kristy ================================================================================
+
+1. What I have done / not done since last Scrum?
+	-Reviewed server side and watched some videos for troubleshooting
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-Finish routes, make up the flavours page (at least get started on it)
+
+3. Where do I need assistance? What do I need to figure out?
+	-Server side code 
+	
+Mitchell
+
+1. What I have done / not done since last Scrum?
+	- Fixed all the foreign keys and added another association as necessary.
+	- Added in all the flavours to the "add flavors" pages.
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	- will look into the admin/orders section.
+	- look into the rest of admin.
+
+3. Where do I need assistance? What do I need to figure out?
+	- will need to review CRUD processes and examples of it.
