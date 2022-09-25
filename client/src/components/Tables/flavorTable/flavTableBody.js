@@ -18,9 +18,9 @@ function TableBody() {
         if (!flavors.flavourActive) {
           return (
             <tr>
-              <td>{flavors.flavourId}</td>
-              <td>{flavors.flavourName}</td>
-              <td>{flavors.flavourDescription}</td>
+              <td key={flavors.flavorsId}>{flavors.flavourId}</td>
+              <td key={flavors.flavorsId}>{flavors.flavourName}</td>
+              <td key={flavors.flavorsId}>{flavors.flavourDescription}</td>
               <td>No</td>
               <td>
                 <Button variant="warning">Edit</Button>{" "}
@@ -30,10 +30,10 @@ function TableBody() {
           );
         } else {
           return (
-            <tr>
-              <td>{flavors.flavourId}</td>
-              <td>{flavors.flavourName}</td>
-              <td>{flavors.flavourDescription}</td>
+            <tr >
+              <td key={flavors.flavorsId}>{flavors.flavourId}</td>
+              <td key={flavors.flavorsId}>{flavors.flavourName}</td>
+              <td key={flavors.flavorsId}>{flavors.flavourDescription}</td>
               <td>Yes</td>
               <td>
                 <Button variant="warning">Edit</Button>{" "}

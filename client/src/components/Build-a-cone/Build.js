@@ -71,6 +71,23 @@ function Build({ flavors, setFlavors }) {
       </ToggleButton>
         </Card.Body>
       </Card>
+      {/**another test */}
+      <Card style={{ width: "18rem" }}>
+        <Card.Img variant="top" src="holder.js/100px180" />
+        <Card.Body>
+          <Card.Title>Chocolate</Card.Title>
+          <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
+          <input
+        className="mb-2"
+        id="toggle-check"
+        type="checkbox"
+        name="cho"
+        variant="primary"
+        onChange={() => updateFlavors("cho")}/>
+        Add Scoop
+        </Card.Body>
+      </Card>
+      {/**another test */}
       </>{/** ADDED CARD MANUALLY DONT TOUCH THIS ONE ^^^^ **/}
               {/* <ChocolateAdd />
               <ChocolateAdd /> */}
