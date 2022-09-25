@@ -4,17 +4,18 @@ import Header from "../components/Header/header";
 
 function BuildPage() {
   const [flavors, setFlavors] = useState({
-    cho: "false",
-    van: "false",
-    straw: "false",
-    tig: "false",
-    pup: "false",
-    rain: "false",
-    nea: "false",
+    
+    van: false,
+    straw: false,
+    tig: false,
+    pup: false,
+    rain: false,
+    nea: false,
+    cho: false,
   });
 
   useEffect(() => {
-    const data = localStorage.getItem("flavors");
+    const data = localStorage.getItem("flavours");
     if (data) {
       setFlavors(JSON.parse(data));
     }

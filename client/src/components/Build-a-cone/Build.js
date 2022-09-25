@@ -10,13 +10,28 @@ import Button from "react-bootstrap/Button";
 import ToggleButton from "react-bootstrap/ToggleButton";
 import Card from "react-bootstrap/Card";
 
+
 function Build({ flavors, setFlavors }) {
-  const updateFlavors = (event, fname) => {
+  const updateFlavors = (event, name) => {
     let newFlavors = JSON.parse(JSON.stringify(flavors));
-    newFlavors[fname] = event;
+    newFlavors[name] = event;
     setFlavors(newFlavors);
+    localStorage.setItem("flavours", JSON.stringify(newFlavors));
   };
 
+  // const orderSubmit = (event) => {
+  //   post new order with cones, scoops and their flavors
+  // }
+  
+  // const addCone = (event) => {
+  //   for loop a limit to 4 cones
+  //   clear page and save previous cone to localstorage
+  // }
+
+    // const clearSelect = (event) => {
+    //   new order, clear all selection
+    // }
+  
   return (
     <>
       <Container>
@@ -54,41 +69,78 @@ function Build({ flavors, setFlavors }) {
         <Row className="justify-content-md-center">
           <Col>
             <ListGroup>
-                <>{/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
-            <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Chocolate</Card.Title>
-          <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
-          <ToggleButton
-        className="mb-2"
-        id="toggle-check"
-        type="checkbox"
-        name="cho"
-        variant="primary"
-        onChange={() => updateFlavors("cho")}>
-        Add Scoop
-      </ToggleButton>
-        </Card.Body>
-      </Card>
-      {/**another test */}
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="holder.js/100px180" />
-        <Card.Body>
-          <Card.Title>Chocolate</Card.Title>
-          <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
-          <input
-        className="mb-2"
-        id="toggle-check"
-        type="checkbox"
-        name="cho"
-        variant="primary"
-        onChange={() => updateFlavors("cho")}/>
-        Add Scoop
-        </Card.Body>
-      </Card>
-      {/**another test */}
-      </>{/** ADDED CARD MANUALLY DONT TOUCH THIS ONE ^^^^ **/}
+              <>
+                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
+                <Card style={{ width: "18rem" }}>
+                  
+                  <Card.Body>
+                    <Card.Title>Chocolate</Card.Title>
+                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
+                    <ToggleButton
+                      className="mb-2"
+                      id="toggle-check"
+                      type="checkbox"
+                      checked={flavors["cho"]}
+                      value="cho"
+                      name="cho"
+                      variant="primary"
+                      onChange={(event) =>
+                        updateFlavors(event.currentTarget.checked, "cho")
+                      }
+                    >
+                      Add Scoop
+                    </ToggleButton>
+                  </Card.Body>
+                </Card>
+              </>
+              {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE ^^^^ **/}
+              <>
+                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
+                <Card style={{ width: "18rem" }}>
+                  
+                  <Card.Body>
+                    <Card.Title>Vanilla</Card.Title>
+                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
+                    <ToggleButton
+                      className="mb-2"
+                      id="toggle-check"
+                      type="checkbox"
+                      checked={flavors["van"]}
+                      value="van"
+                      name="van"
+                      variant="primary"
+                      onChange={(event) =>
+                        updateFlavors(event.currentTarget.checked, "van")
+                      }
+                    >
+                      Add Scoop
+                    </ToggleButton>
+                  </Card.Body>
+                </Card>
+              </>
+              <>
+                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
+                <Card style={{ width: "18rem" }}>
+                 
+                  <Card.Body>
+                    <Card.Title>strawberry</Card.Title>
+                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
+                    <ToggleButton
+                      className="mb-2"
+                      id="toggle-check"
+                      type="checkbox"
+                      checked={flavors["straw"]}
+                      name="straw"
+                      variant="primary"
+                      onChange={(event) =>
+                        updateFlavors(event.currentTarget.checked, "straw")
+                      }
+                    >
+                      Add Scoop
+                    </ToggleButton>
+                  </Card.Body>
+                </Card>
+              </>
               {/* <ChocolateAdd />
               <ChocolateAdd /> */}
             </ListGroup>
@@ -104,7 +156,7 @@ function Build({ flavors, setFlavors }) {
         </Row>
         <Row>
           <Col xs>
-            <Button variant="primary" size="lg" >
+            <Button variant="primary" size="lg">
               Add Another Cone
             </Button>
           </Col>
