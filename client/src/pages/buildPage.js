@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Build from "../components/Build-a-cone/Build";
 import Header from "../components/Header/header";
 
@@ -12,6 +12,13 @@ function BuildPage() {
     rain: "false",
     nea: "false",
   });
+
+  useEffect(() => {
+    const data = localStorage.getItem("flavors");
+    if (data) {
+      setFlavors(JSON.parse(data));
+    }
+  }, []);
   return (
     <>
       <Header />

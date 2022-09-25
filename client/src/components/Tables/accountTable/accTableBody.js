@@ -19,7 +19,7 @@ function TableBody() {
         return (
           //on click div to find by id, order history etc
           
-            <tr key = {listOfAccounts}>
+            <tr>
               <td>{accounts.accountId}</td>
               <td>{accounts.email}</td>
               <td>{accounts.password}</td>

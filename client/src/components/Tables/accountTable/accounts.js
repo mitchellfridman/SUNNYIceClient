@@ -1,6 +1,6 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
-import TableBody from "./tableBody";
+import TableBody from "./accTableBody";
 // import ReactPaginate from "react-paginate"
 
 const Accounts = () => {

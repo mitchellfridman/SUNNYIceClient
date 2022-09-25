@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "../../Media/tripleCone.png";
-import ChocolateAdd from "../Flavors/AddFlavors/ChocolateAdd.js";
+// import ChocolateAdd from "../Flavors/AddFlavors/ChocolateAdd.js";
 import ListGroup from "react-bootstrap/ListGroup";
 import ChocolateRemove from "../Flavors/RemoveFlavors/ChocolateRemove";
 import Button from "react-bootstrap/Button";
@@ -64,6 +64,7 @@ function Build({ flavors, setFlavors }) {
         className="mb-2"
         id="toggle-check"
         type="checkbox"
+        name="cho"
         variant="primary"
         onChange={() => updateFlavors("cho")}>
         Add Scoop
@@ -71,8 +72,8 @@ function Build({ flavors, setFlavors }) {
         </Card.Body>
       </Card>
       </>{/** ADDED CARD MANUALLY DONT TOUCH THIS ONE ^^^^ **/}
-              <ChocolateAdd />
-              <ChocolateAdd />
+              {/* <ChocolateAdd />
+              <ChocolateAdd /> */}
             </ListGroup>
           </Col>
           <Col xs={5}>
@@ -86,7 +87,7 @@ function Build({ flavors, setFlavors }) {
         </Row>
         <Row>
           <Col xs>
-            <Button variant="primary" size="lg">
+            <Button variant="primary" size="lg" >
               Add Another Cone
             </Button>
           </Col>
