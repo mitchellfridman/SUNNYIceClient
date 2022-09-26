@@ -19,7 +19,7 @@ function NavbarAdmin({ toggle }) {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Admin</NavLogo>
+          <NavLogo to="/admin">Admin</NavLogo>
           {/* <NavLogo to="/"><img src={Logo} alt="icecreamlogo"/></NavLogo> */}
           <MobileIcon onClick={toggle}>
             <FaBars />

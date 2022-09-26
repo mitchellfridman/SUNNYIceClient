@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -22,29 +22,31 @@ import Pupcone from "../Flavors/AddFlavors/Pupcone";
 import axios from "axios";
 
 function Build() {
-  const scoop1 = document.getElementById("scoop1");
-  const scoop2 = document.getElementById("scoop2");
-  const scoop3 = document.getElementById("scoop3");
+  // const scoop1El = document.getElementById("scoop1");
+  // const scoop2El = document.getElementById("scoop2");
+  // const scoop3El = document.getElementById("scoop3");
 
   const [listOfFlavors, setlistOfFlavors] = useState([]);
+  const [scoop1, setScoop1] = useState("");
+  const [scoop2, setScoop2] = useState("");
+  const [scoop3, setScoop3] = useState("");
 
   useEffect(() => {
-    axios.get("http://localhost:3001/flavours/getAll").then((response) =>{
+    axios.get("http://localhost:3001/flavours/getAll").then((response) => {
       setlistOfFlavors(response.data);
     });
   }, []);
 
+  // const setScoop1 = () => {
+  //   console.log(scoop1El.value);
+  // };
+  // const setScoop2 = () => {
+  //   console.log(scoop2El.value);
+  // };
 
-  const setScoop1 = () => {
-    console.log(scoop1.value);
-  };
-  const setScoop2 = () => {
-    console.log(scoop2.value);
-  };
-
-  const setScoop3 = () => {
-    console.log(scoop3.value);
-  };
+  // const setScoop3 = () => {
+  //   console.log(scoop3El.value);
+  // };
   const addAnother = () => {
     console.log();
     document.getElementById("scoop1").value = "Choose Flavor";
@@ -52,20 +54,19 @@ function Build() {
     document.getElementById("scoop3").value = "None";
   };
   const submitOrder = () => {
-    var data = {
-      scoops: 1,
-      scoop1: scoop1.value,
-      scoop2: scoop2.value,
-      scoop3: scoop3.value,
-    }
-    axios.post("http://localhost:3001/Cones/newCone", data).then((response) => {
-      console.log(data + response)
-    });
-    
+    axios
+      .post("http://localhost:3001/Cones/newCone", {
+        scoop1: scoop1,
+        scoop2: scoop2,
+        scoop3: scoop3,
+      })
+      .then((response) => {
+        console.log(response);
+      });
+
     setScoop1();
     setScoop2();
     setScoop3();
-
   };
 
   const clearCone = () => {
@@ -156,13 +157,15 @@ function Build() {
                   </InputGroup.Text>
                   <Form.Select id="scoop1" aria-label="Default select example">
                     <option value="">Choose Flavor</option>
-                    {listOfFlavors.map((flavors)=>{
-                      
-                        return(
-                          <option key={flavors.flavourId} value={flavors.flavourId}>{flavors.flavourName}</option>
-                        )
-                        
-                      
+                    {listOfFlavors.map((flavors) => {
+                      return (
+                        <option
+                          key={flavors.flavourId}
+                          value={flavors.flavourId}
+                        >
+                          {flavors.flavourName}
+                        </option>
+                      );
                     })}
                   </Form.Select>
                 </InputGroup>
@@ -171,14 +174,16 @@ function Build() {
                     Second Scoop
                   </InputGroup.Text>
                   <Form.Select id="scoop2" aria-label="Default select example">
-                  <option value="">Choose Flavor</option>
-                    {listOfFlavors.map((flavors)=>{
-                      
-                        return(
-                          <option key={flavors.flavourId} value={flavors.flavourId}>{flavors.flavourName}</option>
-                        )
-                        
-                      
+                    <option value="">Choose Flavor</option>
+                    {listOfFlavors.map((flavors) => {
+                      return (
+                        <option
+                          key={flavors.flavourId}
+                          value={flavors.flavourId}
+                        >
+                          {flavors.flavourName}
+                        </option>
+                      );
                     })}
                   </Form.Select>
                 </InputGroup>
@@ -188,13 +193,15 @@ function Build() {
                   </InputGroup.Text>
                   <Form.Select id="scoop3" aria-label="Default select example">
                     <option value="">Choose Flavor</option>
-                    {listOfFlavors.map((flavors)=>{
-                      
-                        return(
-                          <option key={flavors.flavourId} value={flavors.flavourId}>{flavors.flavourName}</option>
-                        )
-                        
-                      
+                    {listOfFlavors.map((flavors) => {
+                      return (
+                        <option
+                          key={flavors.flavourId}
+                          value={flavors.flavourId}
+                        >
+                          {flavors.flavourName}
+                        </option>
+                      );
                     })}
                   </Form.Select>
                 </InputGroup>
