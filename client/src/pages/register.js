@@ -4,6 +4,7 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
+import Button from "react-bootstrap/esm/Button";
 function Register() {
   const initialValues = {
     email: "",
@@ -48,7 +49,8 @@ function Register() {
             placeholder="Your Password..."
           />
           <br/>
-          <button type="submit"> Register</button>
+
+          <Button type="submit"> Register</Button>
         </Form>
       </Formik>
     </div>

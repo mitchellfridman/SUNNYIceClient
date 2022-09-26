@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import Header from '../components/Header/header'
+import Button from "react-bootstrap/esm/Button";
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -40,7 +41,8 @@ function Login() {
         }}
       />
       <br/>
-      <button onClick={login}> Login </button>
+      
+      <Button onClick={login}> Login </Button>
     </div>
     </div>
   )
