@@ -26,6 +26,8 @@ function Login() {
     <div>
       <Header/>
       <div className="loginContainer">
+      <h1>Welcome to the Sunny Ice Cream Shoppe's login page.</h1>
+      <h4>Please input your email address and password to sign in.</h4>  
       <label>Email:</label>
       <input
         type="text"

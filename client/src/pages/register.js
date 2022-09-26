@@ -19,41 +19,43 @@ function Register() {
   const onSubmit = (data) => {
     axios.post("http://localhost:3001/auth/register", data).then(() => {
       // console.log(data); for testing
-    });
+    });    
   };
 
   return (
     <div>
-      <Header/>
+      <Header />
       <div>
-      <Formik
-        initialValues={initialValues}
-        onSubmit={onSubmit}
-        validationSchema={validationSchema}
-      >
-        <Form className="formContainer">
-          <label>Email: </label>
-          <ErrorMessage name="email" component="span" />
-          <Field
-           
-            name="email"
-            placeholder="(Ex. John123...)"
-          />
+        <Formik
+          initialValues={initialValues}
+          onSubmit={onSubmit}
+          validationSchema={validationSchema}
+        >
+          <Form className="formContainer">
+            <h1>Welcome to the Sunny Ice Cream Shoppe's account creation page.</h1>
+            <h4>Please input your email address, select a password and then hit the "Register" button.</h4>
+            <label>Email: </label>
+            <ErrorMessage name="email" component="span" />
+            <Field
 
-          <label>Password: </label>
-          <ErrorMessage name="password" component="span" />
-          <Field
+              name="email"
+              placeholder="(Ex. John123...)"
+            />
 
-            type="password"
-            name="password"
-            placeholder="Your Password..."
-          />
-          <br/>
+            <label>Password: </label>
+            <ErrorMessage name="password" component="span" />
+            <Field
 
-          <Button type="submit"> Register</Button>
-        </Form>
-      </Formik>
-    </div>
+              type="password"
+              name="password"
+              placeholder="Your Password..."
+            />
+            <br />
+
+            <Button type="submit"> Register</Button>
+          </Form>
+        </Formik>
+      </div>
     </div>
   )
 }
