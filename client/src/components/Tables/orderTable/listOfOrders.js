@@ -1,6 +1,7 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
+import TableBody from "./orderTableBody";
 
 const Orders = () => {
   return (
@@ -10,8 +11,7 @@ const Orders = () => {
         <thead>
           <tr>
             <th>Order Id</th>
-            <th>Account Id</th>
-            <th>Price</th>
+            <th>Account Id</th>            
             <th>Status</th>
             <th>Cone Id</th>
             <th>Scoop 1</th>
@@ -21,7 +21,10 @@ const Orders = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <TableBody/>
+          {/* 
+          ***commented out to try orders table here***
+          <tr>    
             <td>101</td>
             <td>753</td>
             <td>12.13$</td>
@@ -58,7 +61,7 @@ const Orders = () => {
             <td>Vanilla</td>
             <td>
             </td>
-          </tr>
+          </tr> */}
         </tbody>
       </Table>
     </>

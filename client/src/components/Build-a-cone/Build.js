@@ -17,7 +17,7 @@ import Strawberry from "../Flavors/AddFlavors/Strawberry";
 import SaltedCaramel from "../Flavors/AddFlavors/SaltedCaramel";
 import TigerTail from "../Flavors/AddFlavors/TigerTail";
 import SunnyRays from "../Flavors/AddFlavors/SunnyRays";
-import Rainbow from "../Flavors/AddFlavors/RainbowAdd";
+import Rainbow from "../Flavors/AddFlavors/Rainbow";
 import Pupcone from "../Flavors/AddFlavors/Pupcone";
 
 function Build() {

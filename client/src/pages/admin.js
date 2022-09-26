@@ -4,7 +4,7 @@ import NewFlavor from "../components/Flavors/createFlavor";
 import Header from "../components/Header/header";
 import Accounts from "../components/Tables/accountTable/accounts";
 import Flavors from "../components/Tables/flavorTable/flavor"
-import Orders from "../components/Tables/listOfOrders";
+import Orders from "../components/Tables/orderTable/listOfOrders";
 
 function Admin() {
   return (
