@@ -8,8 +8,8 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Button from "react-bootstrap/Button";
 // import ToggleButton from "react-bootstrap/ToggleButton";
 //import Card from "react-bootstrap/Card";
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
+import Form from "react-bootstrap/Form";
+import InputGroup from "react-bootstrap/InputGroup";
 import Neapolitan from "../Flavors/AddFlavors/Neapolitan";
 import Chocolate from "../Flavors/AddFlavors/Chocolate";
 import Vanilla from "../Flavors/AddFlavors/Vanilla";
@@ -19,27 +19,41 @@ import TigerTail from "../Flavors/AddFlavors/TigerTail";
 import SunnyRays from "../Flavors/AddFlavors/SunnyRays";
 import Rainbow from "../Flavors/AddFlavors/RainbowAdd";
 import Pupcone from "../Flavors/AddFlavors/Pupcone";
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 
 function Build() {
+
+  const scoop1 = document.getElementById("scoop1");
+  const scoop2 = document.getElementById("scoop2");
+  const scoop3 = document.getElementById("scoop3");
+  // const [scoop1, setScoop1] = useState([]);
+  // const [scoop2, setScoop2] = useState([]);
+  // const [scoop3, setScoop3] = useState([]);
+  const setScoop1 = () => {
+    console.log(scoop1.value);
+  };
+  const setScoop2 = () => {
+    console.log(scoop2.value);
+  };
+
+  const setScoop3 = () => {
+    console.log(scoop3.value);
+  };
+  const addAnother = () => {
+    console.log();
+    document.getElementById("scoop1").value = "Choose Flavor";
+    document.getElementById("scoop2").value = "None";
+    document.getElementById("scoop3").value = "None";
+  };
   const submitOrder = () => {
-    const scoop1 = document.getElementById("scoop1").value;
-    const scoop2 = document.getElementById("scoop2").value;
-    const scoop3 = document.getElementById("scoop3").value;
-    const noScoop = "None";
-    var scoops = 0;
-      if (scoop2===noScoop&&scoop3===noScoop){
-          scoops = 1;
-      }
-      if (scoop3===noScoop&&!scoop2===noScoop){
-        scoops = 2;
-      }else{
-        scoops = 3;
-      }
-console.log(scoops,scoop1, scoop2, scoop3)
-    }
-    
-    
-  
+    setScoop1();
+    setScoop2();
+    setScoop3();
+  };
+
   // const [scoops, setScoops] = useState([]);
   // const updateFlavors = (event, name) => {
   //   let newFlavors = JSON.parse(JSON.stringify(flavors));
@@ -51,22 +65,21 @@ console.log(scoops,scoop1, scoop2, scoop3)
   // const orderSubmit = (event) => {
   //   post new order with cones, scoops and their flavors
   // }
-  
+
   // const addCone = (event) => {
   //   for loop a limit to 4 cones
   //   clear page and save previous cone to localstorage
   // }
 
-    // const clearSelect = (event) => {
-    //   new order, clear all selection
-    // }
+  // const clearSelect = (event) => {
+  //   new order, clear all selection
+  // }
   return (
     <>
       <Container>
         <Row>
           <Col></Col>
           <Col xs={6}>
-
             <h2>
               <br />
               Build a Cone!
@@ -96,9 +109,10 @@ console.log(scoops,scoop1, scoop2, scoop3)
         </Row>
         <Row className="justify-content-md-center">
           <Col>
-            <ListGroup>              
+            <ListGroup>
               {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE ^^^^ **/}
               <>
+<<<<<<< Updated upstream
               <Chocolate/>
               <Vanilla/>
               <Strawberry/>
@@ -109,6 +123,18 @@ console.log(scoops,scoop1, scoop2, scoop3)
               <Rainbow/>
               <Pupcone/>
               </>              
+=======
+                <Chocolate />
+                <Vanilla />
+                <Strawberry />
+                <Neapolitan />
+                <SaltedCaramel />
+                <TigerTail />
+                <SunnyRays />
+                <Rainbow />
+                <Pupcone />
+              </>
+>>>>>>> Stashed changes
             </ListGroup>
           </Col>
           <Col xs={5}>
@@ -116,55 +142,52 @@ console.log(scoops,scoop1, scoop2, scoop3)
           </Col>
           <Col>
             <ListGroup>
-            <InputGroup  className="mb-3">
-        <InputGroup.Text id="basic-addon1">First Scoop</InputGroup.Text>
-        <Form.Select id="scoop1" aria-label="Default select example">
-      <option>Choose Flavor</option>
-      <option  value="Chocolate">Chocolate</option>
-      <option value="Vanilla">Vanilla</option>
-      <option value="Strawberry">Strawberry</option>
-    </Form.Select>
-      </InputGroup>
-      <InputGroup  className="mb-3">
-        <InputGroup.Text id="basic-addon1">Second Scoop</InputGroup.Text>
-        <Form.Select id="scoop2" aria-label="Default select example">
-      <option>None</option>
-      <option value="Chocolate">Chocolate</option>
-      <option value="Vanilla">Vanilla</option>
-      <option value="Strawberry">Strawberry</option>
-    </Form.Select>
-      </InputGroup>
-      <InputGroup  className="mb-3">
-        <InputGroup.Text id="basic-addon1">Third Scoop</InputGroup.Text>
-        <Form.Select id="scoop3" aria-label="Default select example">
-      <option>None</option>
-      <option value="Chocolate">Chocolate</option>
-      <option value="Vanilla">Vanilla</option>
-      <option value="Strawberry">Strawberry</option>
-    </Form.Select>
-      </InputGroup>
+              <InputGroup className="mb-3">
+                <InputGroup.Text id="basic-addon1">First Scoop</InputGroup.Text>
+                <Form.Select id="scoop1" aria-label="Default select example">
+                  <option>Choose Flavor</option>
+                  <option value="Chocolate">Chocolate</option>
+                  <option value="Vanilla">Vanilla</option>
+                  <option value="Strawberry">Strawberry</option>
+                </Form.Select>
+              </InputGroup>
+              <InputGroup className="mb-3">
+                <InputGroup.Text id="basic-addon1">
+                  Second Scoop
+                </InputGroup.Text>
+                <Form.Select id="scoop2" aria-label="Default select example">
+                  <option>None</option>
+                  <option value="Chocolate">Chocolate</option>
+                  <option value="Vanilla">Vanilla</option>
+                  <option value="Strawberry">Strawberry</option>
+                </Form.Select>
+              </InputGroup>
+              <InputGroup className="mb-3">
+                <InputGroup.Text id="basic-addon1">Third Scoop</InputGroup.Text>
+                <Form.Select id="scoop3" aria-label="Default select example">
+                  <option>None</option>
+                  <option value="Chocolate">Chocolate</option>
+                  <option value="Vanilla">Vanilla</option>
+                  <option value="Strawberry">Strawberry</option>
+                </Form.Select>
+              </InputGroup>
             </ListGroup>
+            <div className="pt-4">
+              <Button variant="primary" size="lg" onClick={addAnother}>
+                Add Another Cone
+              </Button>
+            </div>
+            <div className="pt-4">
+              <Button variant="success" size="lg" onClick={submitOrder}>
+                Submit Order
+              </Button>
+            </div>{" "}
+            <div className="pt-4">
+              <Button variant="secondary" size="lg">
+                Clear Cone
+              </Button>
+            </div>
           </Col>
-        </Row>
-        <Row>
-          <Col xs>
-            <Button variant="primary" size="lg">
-              Add Another Cone
-            </Button>
-          </Col>
-          <Col xs={{ order: 12 }}>
-            <Button variant="success" size="lg" onClick={submitOrder}>
-              Submit Order
-            </Button>
-          </Col>
-          <Col xs={{ order: 1 }}>
-            <Button variant="secondary" size="lg">
-              Clear Cone
-            </Button>
-          </Col>
-        </Row>
-        <Row>
-          <br />
         </Row>
       </Container>
     </>

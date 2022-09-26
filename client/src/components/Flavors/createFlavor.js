@@ -1,14 +1,15 @@
 import React from "react";
-import { Formik } from "formik";
+import { Formik, Field } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 // // import { Navigate } from "react-router-dom";
 // import { useNavigate } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
+import { useNavigate } from "react-router-dom";
 
 function NewFlavor() {
-//   let navigate = useNavigate();
+  let navigate = useNavigate();
   const initialValues = {
     flavourName: "",
     flavourDescription: "",
@@ -21,7 +22,7 @@ function NewFlavor() {
 
   const onSubmit = (data) => {
     axios.post("http://localhost:3001/flavours/newflav", data).then(() => {
-        
+      navigate("/admin"); //refresh admin page
         console.log(data + "****************************");
     });
     
@@ -39,15 +40,15 @@ function NewFlavor() {
 
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Flavor Name</Form.Label>
-            <Form.Control type="text" name="flavourName" required />
+            <Field type="text" name="flavourName" required />
             <Form.Label>Flavor Description</Form.Label>
-            <Form.Control type="text"  name="flavourDescription" required />
+            <Field type="text"  name="flavourDescription" required />
             <Form.Text className="text-muted">
               Keep it short and sweet.
             </Form.Text>
           </Form.Group>
 
-          <Button variant="success" type="submit">
+          <Button variant="success" type="submit" onSubmit={onSubmit}>
             Submit
           </Button>
         </Form>

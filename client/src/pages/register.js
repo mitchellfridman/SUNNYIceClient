@@ -5,7 +5,10 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import axios from "axios";
 import Button from "react-bootstrap/esm/Button";
+import { useNavigate } from "react-router-dom";
 function Register() {
+
+    const navi = useNavigate();
   const initialValues = {
     email: "",
     password: "",
@@ -18,6 +21,7 @@ function Register() {
 
   const onSubmit = (data) => {
     axios.post("http://localhost:3001/auth/register", data).then(() => {
+      navi("login")
       // console.log(data); for testing
     });    
   };
