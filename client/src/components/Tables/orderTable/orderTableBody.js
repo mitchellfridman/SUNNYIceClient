@@ -21,9 +21,12 @@ function TableBody() {
           
             <tr>
               <td key={orders.orderId}>{orders.orderId}</td>
-              <td key={orders.orderId}>{orders.orderStatus}</td>
               <td key={orders.orderId}>{orders.accountId}</td>
+              <td key={orders.orderId}>{orders.orderStatus}</td>              
               <td key={orders.orderId}>{orders.coneId}</td>
+              <td key={orders.orderId}>{orders.scoop1}</td>
+              <td key={orders.orderId}>{orders.scoop2}</td>
+              <td key={orders.orderId}>{orders.scoop3}</td>
               <td>
                 <Button variant="secondary">View</Button>
                 <Button variant="warning">Edit</Button>
