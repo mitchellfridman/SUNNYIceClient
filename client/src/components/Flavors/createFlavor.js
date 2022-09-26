@@ -21,7 +21,7 @@ function NewFlavor() {
 
   const onSubmit = (data) => {
     axios.post("http://localhost:3001/flavours/newflav", data).then(() => {
-      
+        
         console.log(data + "****************************");
     });
     

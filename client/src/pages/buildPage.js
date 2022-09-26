@@ -4,7 +4,6 @@ import Header from "../components/Header/header";
 
 function BuildPage() {
   const [flavors, setFlavors] = useState({
-    
     van: false,
     straw: false,
     tig: false,

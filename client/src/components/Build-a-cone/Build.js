@@ -12,8 +12,8 @@ import Card from "react-bootstrap/Card";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-function Build({flavors, setFlavors}) {
-
+function Build() {
+  // const [scoops, setScoops] = useState([]);
   // const updateFlavors = (event, name) => {
   //   let newFlavors = JSON.parse(JSON.stringify(flavors));
   //   newFlavors[name] = event;
@@ -33,14 +33,13 @@ function Build({flavors, setFlavors}) {
     // const clearSelect = (event) => {
     //   new order, clear all selection
     // }
-  
   return (
     <>
       <Container>
         <Row>
           <Col></Col>
           <Col xs={6}>
-            {JSON.stringify(flavors)}
+
             <h2>
               <br />
               Build a Cone!
@@ -201,33 +200,31 @@ function Build({flavors, setFlavors}) {
           </Col>
           <Col>
             <ListGroup>
-            <InputGroup className="mb-3">
+            <InputGroup id="scoop1" className="mb-3">
         <InputGroup.Text id="basic-addon1">First Scoop</InputGroup.Text>
         <Form.Select aria-label="Default select example">
       <option>Choose Flavor</option>
-      <option value="Chocolate">Chocolate</option>
+      <option  value="Chocolate">Chocolate</option>
       <option value="Vanilla">Vanilla</option>
       <option value="Strawberry">Strawberry</option>
     </Form.Select>
       </InputGroup>
-      <InputGroup className="mb-3">
+      <InputGroup id="scoop2" className="mb-3">
         <InputGroup.Text id="basic-addon1">Second Scoop</InputGroup.Text>
         <Form.Select aria-label="Default select example">
-      <option>Choose Flavor</option>
+      <option>None</option>
       <option value="Chocolate">Chocolate</option>
       <option value="Vanilla">Vanilla</option>
       <option value="Strawberry">Strawberry</option>
-      <option value="No Scoop">No Scoop</option>
     </Form.Select>
       </InputGroup>
-      <InputGroup className="mb-3">
+      <InputGroup id="scoop3" className="mb-3">
         <InputGroup.Text id="basic-addon1">Third Scoop</InputGroup.Text>
         <Form.Select aria-label="Default select example">
-      <option>Choose Flavor</option>
+      <option>None</option>
       <option value="Chocolate">Chocolate</option>
       <option value="Vanilla">Vanilla</option>
       <option value="Strawberry">Strawberry</option>
-      <option value="No Scoop">No Scoop</option>
     </Form.Select>
       </InputGroup>
             </ListGroup>
