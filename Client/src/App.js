@@ -11,7 +11,7 @@ import Admin from "./pages/admin";
 import BuildPage from "./pages/buildPage";
 import Accounts from "./components/Tables/accountTable/accounts";
 import Flavors from "./components/Tables/flavorTable/flavor";
-import Orders from "./components/Tables/listOfOrders";
+import Orders from "./components/Tables/orderTable/listOfOrders"
 function App() {
   return (
     <div className="App">
