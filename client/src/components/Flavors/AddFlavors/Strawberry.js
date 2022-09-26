@@ -1,18 +1,18 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 
-function SunnyRays() {
+function Strawberry() {
 
   return (
     <div>
       <Card style={{ width: "18rem" }}>
         <Card.Body>
-          <Card.Title>Sunny Rays</Card.Title>
-          <Card.Text>Enjoy our tart lemon flavour.</Card.Text>          
+          <Card.Title>Strawberry</Card.Title>
+          <Card.Text>Enjoy our berry delicious Strawberry flavour.</Card.Text>          
         </Card.Body>
       </Card>
     </div>
   );
 }
 
-export default SunnyRays;
+export default Strawberry;

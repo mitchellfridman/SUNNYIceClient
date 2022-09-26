@@ -1,18 +1,18 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 
-function SunnyRays() {
 
+function Chocolate({ updateFlavors }) {
   return (
     <div>
       <Card style={{ width: "18rem" }}>
         <Card.Body>
-          <Card.Title>Sunny Rays</Card.Title>
-          <Card.Text>Enjoy our tart lemon flavour.</Card.Text>          
+          <Card.Title>Chocolate</Card.Title>
+          <Card.Text>Enjoy our classically decadent Chocolate Flavor.</Card.Text>
         </Card.Body>
       </Card>
     </div>
   );
 }
 
-export default SunnyRays;
+export default Chocolate;
