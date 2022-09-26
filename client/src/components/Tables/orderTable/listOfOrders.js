@@ -1,11 +1,13 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
-import Button from "react-bootstrap/Button";
 import TableBody from "./orderTableBody";
+import HeaderAdmin from "../../Header Admin/header";
 
 const Orders = () => {
   return (
     <>
+    <HeaderAdmin/>
+      <br />
       <h1>Orders</h1>
       <Table striped>
         <thead>

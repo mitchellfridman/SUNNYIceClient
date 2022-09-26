@@ -2,6 +2,7 @@ import React from "react";
 import Table from "react-bootstrap/Table";
 import HeaderAdmin from "../../Header Admin/header";
 import TableBody from "./flavTableBody";
+import  NewFlavor from "../../Flavors/createFlavor"
 
 function Flavors() {
   
@@ -22,6 +23,7 @@ function Flavors() {
         <tbody>
             <TableBody/>
         </tbody>
+        < NewFlavor/>
       </Table>
     </>
   );
