@@ -21,9 +21,10 @@ function NewFlavor() {
   });
 
   const onSubmit = (data) => {
-    axios.post("http://localhost:3001/flavours/newflav", data).then(() => {
+    axios.post("http://localhost:3001/flavours/newflav", data).then((response) => {
+      
       navigate("/admin"); //refresh admin page
-        console.log(data + "****************************");
+        console.log(response + "****************************");
     });
     
   };

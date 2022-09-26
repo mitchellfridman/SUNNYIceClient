@@ -1,11 +1,13 @@
 import React from "react";
 import Table from "react-bootstrap/Table";
+import HeaderAdmin from "../../Header Admin/header";
 import TableBody from "./flavTableBody";
 
 function Flavors() {
   
   return (
     <>
+    <HeaderAdmin/>
       <h1>List of Flavors</h1>
       <Table striped>
         <thead>

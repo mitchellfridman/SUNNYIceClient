@@ -52,13 +52,14 @@ function Build() {
     document.getElementById("scoop3").value = "None";
   };
   const submitOrder = () => {
-    const data = {
+    var data = {
+      scoops: 1,
       scoop1: scoop1.value,
       scoop2: scoop2.value,
       scoop3: scoop3.value,
     }
-    axios.post("http://localhost:3001/Cones/newCone", data).then(() => {
-      console.log(data)
+    axios.post("http://localhost:3001/Cones/newCone", data).then((response) => {
+      console.log(data + response)
     });
     
     setScoop1();
