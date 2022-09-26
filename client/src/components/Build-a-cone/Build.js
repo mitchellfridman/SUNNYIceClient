@@ -11,7 +11,6 @@ import Button from "react-bootstrap/Button";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Neapolitan from "../Flavors/AddFlavors/Neapolitan";
-<<<<<<< Updated upstream
 import Chocolate from "../Flavors/AddFlavors/Chocolate";
 import Vanilla from "../Flavors/AddFlavors/Vanilla";
 import Strawberry from "../Flavors/AddFlavors/Strawberry";
@@ -20,8 +19,6 @@ import TigerTail from "../Flavors/AddFlavors/TigerTail";
 import SunnyRays from "../Flavors/AddFlavors/SunnyRays";
 import Rainbow from "../Flavors/AddFlavors/RainbowAdd";
 import Pupcone from "../Flavors/AddFlavors/Pupcone";
-=======
->>>>>>> Stashed changes
 
 function Build() {
   const submitOrder = () => {
@@ -101,7 +98,6 @@ console.log(scoops,scoop1, scoop2, scoop3)
           <Col>
             <ListGroup>              
               {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE ^^^^ **/}
-<<<<<<< Updated upstream
               <>
               <Chocolate/>
               <Vanilla/>
@@ -113,86 +109,6 @@ console.log(scoops,scoop1, scoop2, scoop3)
               <Rainbow/>
               <Pupcone/>
               </>              
-=======
-              <Neapolitan/>
-              <Neapolitan/>
-              <Neapolitan/>
-          
-              <>
-                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
-                <Card style={{ width: "18rem" }}>
-                  
-                  <Card.Body>
-                    <Card.Title>Chocolate</Card.Title>
-                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
-                    {/* <ToggleButton
-                      className="mb-2"
-                      id="toggle-check"
-                      type="checkbox"
-                      checked={flavors["cho"]}
-                      value="cho"
-                      name="cho"
-                      variant="primary"
-                      onChange={(event) =>
-                        updateFlavors(event.currentTarget.checked, "cho")
-                      }
-                    >
-                      Add Scoop
-                    </ToggleButton> */}
-                  </Card.Body>
-                </Card>
-              </>
-              <>
-                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
-                <Card style={{ width: "18rem" }}>
-                  
-                  <Card.Body>
-                    <Card.Title>Chocolate</Card.Title>
-                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
-                    {/* <ToggleButton
-                      className="mb-2"
-                      id="toggle-check"
-                      type="checkbox"
-                      checked={flavors["cho"]}
-                      value="cho"
-                      name="cho"
-                      variant="primary"
-                      onChange={(event) =>
-                        updateFlavors(event.currentTarget.checked, "cho")
-                      }
-                    >
-                      Add Scoop
-                    </ToggleButton> */}
-                  </Card.Body>
-                </Card>
-              </>
-              <>
-                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
-                <Card style={{ width: "18rem" }}>
-                  
-                  <Card.Body>
-                    <Card.Title>Chocolate</Card.Title>
-                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
-                    {/* <ToggleButton
-                      className="mb-2"
-                      id="toggle-check"
-                      type="checkbox"
-                      checked={flavors["cho"]}
-                      value="cho"
-                      name="cho"
-                      variant="primary"
-                      onChange={(event) =>
-                        updateFlavors(event.currentTarget.checked, "cho")
-                      }
-                    >
-                      Add Scoop
-                    </ToggleButton> */}
-                  </Card.Body>
-                </Card>
-              </>
-              {/* <ChocolateAdd />
-              <ChocolateAdd /> */}
->>>>>>> Stashed changes
             </ListGroup>
           </Col>
           <Col xs={5}>
