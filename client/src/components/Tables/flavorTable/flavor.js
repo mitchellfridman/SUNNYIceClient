@@ -3,6 +3,7 @@ import Table from "react-bootstrap/Table";
 import TableBody from "./flavTableBody";
 
 function Flavors() {
+  
   return (
     <>
       <h1>List of Flavors</h1>

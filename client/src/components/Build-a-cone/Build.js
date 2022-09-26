@@ -11,6 +11,7 @@ import Button from "react-bootstrap/Button";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Neapolitan from "../Flavors/AddFlavors/Neapolitan";
+<<<<<<< Updated upstream
 import Chocolate from "../Flavors/AddFlavors/Chocolate";
 import Vanilla from "../Flavors/AddFlavors/Vanilla";
 import Strawberry from "../Flavors/AddFlavors/Strawberry";
@@ -19,8 +20,29 @@ import TigerTail from "../Flavors/AddFlavors/TigerTail";
 import SunnyRays from "../Flavors/AddFlavors/SunnyRays";
 import Rainbow from "../Flavors/AddFlavors/RainbowAdd";
 import Pupcone from "../Flavors/AddFlavors/Pupcone";
+=======
+>>>>>>> Stashed changes
 
 function Build() {
+  const submitOrder = () => {
+    const scoop1 = document.getElementById("scoop1").value;
+    const scoop2 = document.getElementById("scoop2").value;
+    const scoop3 = document.getElementById("scoop3").value;
+    const noScoop = "None";
+    var scoops = 0;
+      if (scoop2===noScoop&&scoop3===noScoop){
+          scoops = 1;
+      }
+      if (scoop3===noScoop&&!scoop2===noScoop){
+        scoops = 2;
+      }else{
+        scoops = 3;
+      }
+console.log(scoops,scoop1, scoop2, scoop3)
+    }
+    
+    
+  
   // const [scoops, setScoops] = useState([]);
   // const updateFlavors = (event, name) => {
   //   let newFlavors = JSON.parse(JSON.stringify(flavors));
@@ -79,6 +101,7 @@ function Build() {
           <Col>
             <ListGroup>              
               {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE ^^^^ **/}
+<<<<<<< Updated upstream
               <>
               <Chocolate/>
               <Vanilla/>
@@ -90,6 +113,86 @@ function Build() {
               <Rainbow/>
               <Pupcone/>
               </>              
+=======
+              <Neapolitan/>
+              <Neapolitan/>
+              <Neapolitan/>
+          
+              <>
+                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
+                <Card style={{ width: "18rem" }}>
+                  
+                  <Card.Body>
+                    <Card.Title>Chocolate</Card.Title>
+                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
+                    {/* <ToggleButton
+                      className="mb-2"
+                      id="toggle-check"
+                      type="checkbox"
+                      checked={flavors["cho"]}
+                      value="cho"
+                      name="cho"
+                      variant="primary"
+                      onChange={(event) =>
+                        updateFlavors(event.currentTarget.checked, "cho")
+                      }
+                    >
+                      Add Scoop
+                    </ToggleButton> */}
+                  </Card.Body>
+                </Card>
+              </>
+              <>
+                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
+                <Card style={{ width: "18rem" }}>
+                  
+                  <Card.Body>
+                    <Card.Title>Chocolate</Card.Title>
+                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
+                    {/* <ToggleButton
+                      className="mb-2"
+                      id="toggle-check"
+                      type="checkbox"
+                      checked={flavors["cho"]}
+                      value="cho"
+                      name="cho"
+                      variant="primary"
+                      onChange={(event) =>
+                        updateFlavors(event.currentTarget.checked, "cho")
+                      }
+                    >
+                      Add Scoop
+                    </ToggleButton> */}
+                  </Card.Body>
+                </Card>
+              </>
+              <>
+                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
+                <Card style={{ width: "18rem" }}>
+                  
+                  <Card.Body>
+                    <Card.Title>Chocolate</Card.Title>
+                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
+                    {/* <ToggleButton
+                      className="mb-2"
+                      id="toggle-check"
+                      type="checkbox"
+                      checked={flavors["cho"]}
+                      value="cho"
+                      name="cho"
+                      variant="primary"
+                      onChange={(event) =>
+                        updateFlavors(event.currentTarget.checked, "cho")
+                      }
+                    >
+                      Add Scoop
+                    </ToggleButton> */}
+                  </Card.Body>
+                </Card>
+              </>
+              {/* <ChocolateAdd />
+              <ChocolateAdd /> */}
+>>>>>>> Stashed changes
             </ListGroup>
           </Col>
           <Col xs={5}>
@@ -97,27 +200,27 @@ function Build() {
           </Col>
           <Col>
             <ListGroup>
-            <InputGroup id="scoop1" className="mb-3">
+            <InputGroup  className="mb-3">
         <InputGroup.Text id="basic-addon1">First Scoop</InputGroup.Text>
-        <Form.Select aria-label="Default select example">
+        <Form.Select id="scoop1" aria-label="Default select example">
       <option>Choose Flavor</option>
       <option  value="Chocolate">Chocolate</option>
       <option value="Vanilla">Vanilla</option>
       <option value="Strawberry">Strawberry</option>
     </Form.Select>
       </InputGroup>
-      <InputGroup id="scoop2" className="mb-3">
+      <InputGroup  className="mb-3">
         <InputGroup.Text id="basic-addon1">Second Scoop</InputGroup.Text>
-        <Form.Select aria-label="Default select example">
+        <Form.Select id="scoop2" aria-label="Default select example">
       <option>None</option>
       <option value="Chocolate">Chocolate</option>
       <option value="Vanilla">Vanilla</option>
       <option value="Strawberry">Strawberry</option>
     </Form.Select>
       </InputGroup>
-      <InputGroup id="scoop3" className="mb-3">
+      <InputGroup  className="mb-3">
         <InputGroup.Text id="basic-addon1">Third Scoop</InputGroup.Text>
-        <Form.Select aria-label="Default select example">
+        <Form.Select id="scoop3" aria-label="Default select example">
       <option>None</option>
       <option value="Chocolate">Chocolate</option>
       <option value="Vanilla">Vanilla</option>
@@ -134,7 +237,7 @@ function Build() {
             </Button>
           </Col>
           <Col xs={{ order: 12 }}>
-            <Button variant="success" size="lg">
+            <Button variant="success" size="lg" onClick={submitOrder}>
               Submit Order
             </Button>
           </Col>
