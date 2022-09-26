@@ -19,10 +19,6 @@ import TigerTail from "../Flavors/AddFlavors/TigerTail";
 import SunnyRays from "../Flavors/AddFlavors/SunnyRays";
 import Rainbow from "../Flavors/AddFlavors/RainbowAdd";
 import Pupcone from "../Flavors/AddFlavors/Pupcone";
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 
 function Build() {
 
@@ -112,7 +108,6 @@ function Build() {
             <ListGroup>
               {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE ^^^^ **/}
               <>
-<<<<<<< Updated upstream
               <Chocolate/>
               <Vanilla/>
               <Strawberry/>
@@ -123,18 +118,6 @@ function Build() {
               <Rainbow/>
               <Pupcone/>
               </>              
-=======
-                <Chocolate />
-                <Vanilla />
-                <Strawberry />
-                <Neapolitan />
-                <SaltedCaramel />
-                <TigerTail />
-                <SunnyRays />
-                <Rainbow />
-                <Pupcone />
-              </>
->>>>>>> Stashed changes
             </ListGroup>
           </Col>
           <Col xs={5}>
