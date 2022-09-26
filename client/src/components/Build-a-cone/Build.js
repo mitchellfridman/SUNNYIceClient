@@ -59,14 +59,16 @@ function Build() {
         scoop1: scoop1,
         scoop2: scoop2,
         scoop3: scoop3,
-      })
+      },
+      {
+        headers: {
+          accessToken: localStorage.getItem("accessToken"),
+        },
+      }
+      )
       .then((response) => {
         console.log(response);
       });
-
-    setScoop1();
-    setScoop2();
-    setScoop3();
   };
 
   const clearCone = () => {
@@ -155,7 +157,9 @@ function Build() {
                   <InputGroup.Text id="basic-addon1">
                     First Scoop
                   </InputGroup.Text>
-                  <Form.Select id="scoop1" aria-label="Default select example">
+                  <Form.Select id="scoop1" name="scoop1" aria-label="Default select example" onChange={(e)=> {
+                    setScoop1(e.target.value)
+                  }}>
                     <option value="">Choose Flavor</option>
                     {listOfFlavors.map((flavors) => {
                       return (
@@ -173,7 +177,9 @@ function Build() {
                   <InputGroup.Text id="basic-addon1">
                     Second Scoop
                   </InputGroup.Text>
-                  <Form.Select id="scoop2" aria-label="Default select example">
+                  <Form.Select id="scoop2" name="scoop2" aria-label="Default select example" onChange={(e)=> {
+                    setScoop2(e.target.value)
+                  }}>
                     <option value="">Choose Flavor</option>
                     {listOfFlavors.map((flavors) => {
                       return (
@@ -191,7 +197,9 @@ function Build() {
                   <InputGroup.Text id="basic-addon1">
                     Third Scoop
                   </InputGroup.Text>
-                  <Form.Select id="scoop3" aria-label="Default select example">
+                  <Form.Select id="scoop3" name="scoop3" aria-label="Default select example" onChange={(e)=> {
+                    setScoop3(e.target.value)
+                  }}>
                     <option value="">Choose Flavor</option>
                     {listOfFlavors.map((flavors) => {
                       return (
