@@ -1,4 +1,4 @@
-
+import "./register.css";
 import Header from '../components/Header/header'
 import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
@@ -31,7 +31,7 @@ function Register() {
         validationSchema={validationSchema}
       >
         <Form className="formContainer">
-          <label>email: </label>
+          <label>Email: </label>
           <ErrorMessage name="email" component="span" />
           <Field
            
@@ -47,7 +47,7 @@ function Register() {
             name="password"
             placeholder="Your Password..."
           />
-
+          <br/>
           <button type="submit"> Register</button>
         </Form>
       </Formik>
