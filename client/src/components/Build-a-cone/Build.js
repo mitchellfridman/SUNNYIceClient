@@ -11,6 +11,7 @@ import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+import Neapolitan from "../Flavors/AddFlavors/Neopolitan";
 
 function Build() {
   // const [scoops, setScoops] = useState([]);
@@ -96,28 +97,7 @@ function Build() {
               </>
               {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE ^^^^ **/}
               <>
-                {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}
-                <Card style={{ width: "18rem" }}>
-                  
-                  <Card.Body>
-                    <Card.Title>Chocolate</Card.Title>
-                    <Card.Text>Enjoy our milky Chocolate Flavor</Card.Text>
-                    {/* <ToggleButton
-                      className="mb-2"
-                      id="toggle-check"
-                      type="checkbox"
-                      checked={flavors["cho"]}
-                      value="cho"
-                      name="cho"
-                      variant="primary"
-                      onChange={(event) =>
-                        updateFlavors(event.currentTarget.checked, "cho")
-                      }
-                    >
-                      Add Scoop
-                    </ToggleButton> */}
-                  </Card.Body>
-                </Card>
+              <Neapolitan/>
               </>
               <>
                 {/** ADDED CARD MANUALLY DONT TOUCH THIS ONE **/}

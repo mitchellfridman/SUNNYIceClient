@@ -319,3 +319,17 @@ Matthew
 	-routes are still unfinished
 	-build site is very rough
 	-order tables-login registration CSS
+
+26/09/2022 Matthew ================================================================================
+
+1. What I have done / not done since last Scrum?
+	-Re-wrote build 
+	-replanning build page
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	-finish up power point
+	-try to finish the build page
+
+3. Where do I need assistance? What do I need to figure out?
+	-build page
+	-powerpoint
