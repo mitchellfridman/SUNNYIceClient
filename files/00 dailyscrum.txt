@@ -333,3 +333,17 @@ Matthew
 3. Where do I need assistance? What do I need to figure out?
 	-build page
 	-powerpoint
+
+Mitchell
+
+1. What I have done / not done since last Scrum?
+	I attempted a new build page which did not work.
+	Supported the team as best I could.
+
+2. What I plan to do from this scrum to next? (next 24 hours)
+	Work on the powerpoint.
+	Support the team by filling in items that need to be completed.
+	Take a closer look at the Trello board re:user stories
+
+3. Where do I need assistance? What do I need to figure out?
+	powerpoint and trello
