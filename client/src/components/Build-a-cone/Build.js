@@ -22,9 +22,6 @@ import Pupcone from "../Flavors/AddFlavors/Pupcone";
 import axios from "axios";
 
 function Build() {
-  // const scoop1El = document.getElementById("scoop1");
-  // const scoop2El = document.getElementById("scoop2");
-  // const scoop3El = document.getElementById("scoop3");
 
   const [listOfFlavors, setlistOfFlavors] = useState([]);
   const [scoop1, setScoop1] = useState("");
@@ -37,16 +34,6 @@ function Build() {
     });
   }, []);
 
-  // const setScoop1 = () => {
-  //   console.log(scoop1El.value);
-  // };
-  // const setScoop2 = () => {
-  //   console.log(scoop2El.value);
-  // };
-
-  // const setScoop3 = () => {
-  //   console.log(scoop3El.value);
-  // };
   const addAnother = () => {
     console.log();
     document.getElementById("scoop1").value = "Choose Flavor";
@@ -80,26 +67,7 @@ function Build() {
     document.getElementById("scoop3").value = "";
   };
 
-  // const [scoops, setScoops] = useState([]);
-  // const updateFlavors = (event, name) => {
-  //   let newFlavors = JSON.parse(JSON.stringify(flavors));
-  //   newFlavors[name] = event;
-  //   setFlavors(newFlavors);
-  //   localStorage.setItem("flavours", JSON.stringify(newFlavors));
-  // };
-
-  // const orderSubmit = (event) => {
-  //   post new order with cones, scoops and their flavors
-  // }
-
-  // const addCone = (event) => {
-  //   for loop a limit to 4 cones
-  //   clear page and save previous cone to localstorage
-  // }
-
-  // const clearSelect = (event) => {
-  //   new order, clear all selection
-  // }
+  
   return (
     <>
       <Container>
@@ -163,7 +131,7 @@ function Build() {
                   <Form.Select id="scoop1" name="scoop1" aria-label="Default select example" onChange={(e)=> {
                     setScoop1(e.target.value)
                   }}>
-                    <option value="">Choose Flavor</option>
+                    <option>Choose Flavor</option>
                     {listOfFlavors.map((flavors) => {
                       return (
                         <option
@@ -183,7 +151,7 @@ function Build() {
                   <Form.Select id="scoop2" name="scoop2" aria-label="Default select example" onChange={(e)=> {
                     setScoop2(e.target.value)
                   }}>
-                    <option value="">Choose Flavor</option>
+                    <option value="null">Choose Flavor</option>
                     {listOfFlavors.map((flavors) => {
                       return (
                         <option
@@ -203,7 +171,7 @@ function Build() {
                   <Form.Select id="scoop3" name="scoop3" aria-label="Default select example" onChange={(e)=> {
                     setScoop3(e.target.value)
                   }}>
-                    <option value="">Choose Flavor</option>
+                    
                     {listOfFlavors.map((flavors) => {
                       return (
                         <option

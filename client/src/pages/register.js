@@ -15,7 +15,7 @@ function Register() {
   };
 
   const validationSchema = Yup.object().shape({
-    email: Yup.string().min(3).max(15).required(),
+    email: Yup.string().min(3).max(50).required(),
     password: Yup.string().min(4).max(20).required(),
   });
 
