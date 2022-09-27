@@ -36,7 +36,7 @@ function NavbarAdmin({ toggle }) {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/logout">Logout</NavBtnLink>
+            <NavBtnLink to="/">Logout</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>

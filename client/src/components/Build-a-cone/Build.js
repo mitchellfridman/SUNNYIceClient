@@ -168,7 +168,8 @@ function Build() {
                   <InputGroup.Text id="basic-addon1">
                     Third Scoop
                   </InputGroup.Text>
-                  <Form.Select id="scoop3" name="scoop3" aria-label="Default select example" onChange={(e)=> {
+                  <Form.Select id="scoop3" name="scoop3" aria-label="Default select example"
+                   onChange={(e)=> {
                     setScoop3(e.target.value)
                   }}>
                     
