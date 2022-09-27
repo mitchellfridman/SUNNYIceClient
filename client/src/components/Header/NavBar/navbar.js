@@ -9,9 +9,7 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
-  // Img,
 } from "./navbarElements";
-// import Logo from '../../Media/icecreampink-resized.jpg'
 import { FaBars } from "react-icons/fa";
 
 function Navbar({ toggle }) {
@@ -20,7 +18,6 @@ function Navbar({ toggle }) {
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">Sunny Ice Cream</NavLogo>
-          {/* <NavLogo to="/"><img src={Logo} alt="icecreamlogo"/></NavLogo> */}
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
