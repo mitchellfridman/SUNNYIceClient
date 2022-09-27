@@ -15,17 +15,6 @@ function Home() {
     <>
       <Header />
       <HeroSection />
-      
-      {/* <FlavorsHeroSection/> */}
-      {/* <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/flavours" element={<Flavours />} /> *Should active and inactive flavours be the same page with two sections or two separate pages?
-        <Route path="/build" element={<Build />} /> *This is the page you will build your cone
-      </Routes>
-      </Router> */}
     </>
   );
 }

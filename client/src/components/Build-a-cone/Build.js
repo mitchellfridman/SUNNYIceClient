@@ -67,14 +67,17 @@ function Build() {
       }
       )
       .then((response) => {
+        // axios.post("http://localhost:3001/orders/neworder", {
+        //   //************************************************** */
+        // })
         console.log(response);
       });
   };
 
   const clearCone = () => {
-    document.getElementById("scoop1").value = "Choose Flavor";
-    document.getElementById("scoop2").value = "None";
-    document.getElementById("scoop3").value = "None";
+    document.getElementById("scoop1").value = "";
+    document.getElementById("scoop2").value = "";
+    document.getElementById("scoop3").value = "";
   };
 
   // const [scoops, setScoops] = useState([]);
